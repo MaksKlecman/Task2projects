@@ -52,6 +52,7 @@ The database is created automatically when the application starts.
 
 H2 Console:
 http://localhost:8080/h2-console
+Screenshot
 ![H2](Screenshots/task2-h2.png)
 
  Swagger is available at:
@@ -68,7 +69,7 @@ Result:
 A new user is saved in the database and returned as JSON
 
 The client requests a list of all users stored in the database
-![Get all users](Screenshots/getall.png)
+![Get all users](Screenshots/task2-getall.png)
 ![Get all users Swagger](Screenshots/getallsw.png)
 Result:
 A JSON list of users is returned
