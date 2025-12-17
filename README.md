@@ -52,41 +52,41 @@ The database is created automatically when the application starts.
 
 H2 Console:
 http://localhost:8080/h2-console
-![H2](screenshots/task2-h2.png)
+![H2](Screenshots/task2-h2.png)
 
  Swagger is available at:
 http://localhost:8080/swagger-ui/index.html
 
 Screenshot
-![Swagger UI](screenshots/task2-swager.png)
+![Swagger UI](Screenshots/task2-swager.png)
 
 
 The client sends a POST request to create a new user
-![Create user](screenshots/task2-post.png)
+![Create user](Screenshots/task2-post.png)
 
 Result:
 A new user is saved in the database and returned as JSON
 
 The client requests a list of all users stored in the database
-![Get all users](screenshots/getall.png)
-![Get all users Swagger](screenshots/getallsw.png)
+![Get all users](Screenshots/getall.png)
+![Get all users Swagger](Screenshots/getallsw.png)
 Result:
 A JSON list of users is returned
 
 The client requests a single user by ID
-![Get user by id](screenshots/getid.png)
-![Get user by id Swagger](screenshots/getidsw.png)
+![Get user by id](Screenshots/getid.png)
+![Get user by id Swagger](Screenshots/getidsw.png)
 Result:
 User data is returned as JSON if the user exists
 
 The client deletes a user by ID
-![Delete user](screenshots/deleteid.png)
+![Delete user](Screenshots/deleteid.png)
 Result:
 User is removed from the database
 
 The client requests a user that does not exist
-![User not found exception](screenshots/getid999.png)
-![User not found exception Swagger](screenshots/getid999sw.png)
+![User not found exception](Screenshots/getid999.png)
+![User not found exception Swagger](Screenshots/getid999sw.png)
 Result:
 The application returns HTTP 404 with an error message
 
